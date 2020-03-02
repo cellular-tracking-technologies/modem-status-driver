@@ -1,0 +1,22 @@
+{
+  "name": "modem-driver",
+  "version": "0.0.3",
+  "description": "",
+  "main": " lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "main": "lib/index.js",
+    "module": "lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "serialport": "^8.0.7",
+    "uuid": "^7.0.1"
+  }
+}

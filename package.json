@@ -1,14 +1,16 @@
 {
-  "name": "modem-driver",
-  "version": "0.0.3",
+  "name": "modem-status-driver",
+  "version": "0.0.1",
   "description": "",
-  "main": " lib/index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "build": "babel src -d lib",
-    "main": "lib/index.js",
-    "module": "lib/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d dist",
+    "compile": "babel src -d dist --source-maps --watch",
+    "test": "node dist/test/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {

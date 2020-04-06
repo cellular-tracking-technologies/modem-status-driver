@@ -172,7 +172,7 @@ class Modem extends EventEmitter {
       setTimeout(this.processCommand.bind(this), 500);
     } else {
       // unsolicited data?
-      this.emit('unsolicited', data);
+      this.emit('unsolicited', opts.data);
     }
   }
 }

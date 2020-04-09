@@ -1,17 +1,19 @@
 {
-  "name": "modem-status-driver",
+  "name": "@cellular-tracking-technologies/modem-status-driver",
   "version": "0.1.0",
-  "description": "",
+  "description": "Modem Command Response tool for querying information",
   "main": "./dist/index.js",
+  "prepublish": "npm run build",
   "scripts": {
     "build": "babel src -d dist",
     "compile": "babel src -d dist --source-maps --watch",
     "test": "node dist/test/index.js"
   },
-  "files": [
-    "dist"
-  ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cellular-tracking-technologies/modem-status-driver.git"
+  },
+  "author": "Bob Fogg",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",

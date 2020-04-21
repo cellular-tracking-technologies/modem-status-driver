@@ -1,6 +1,6 @@
 {
   "name": "@cellular-tracking-technologies/modem-status-driver",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Modem Command Response tool for querying information",
   "main": "./dist/index.js",
   "prepublish": "npm run build",
